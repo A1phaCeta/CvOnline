@@ -1,0 +1,60 @@
+#conteneur-cv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1000px;
+    margin: 100px auto;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.24);
+}
+#PlanGauche{
+    padding: 50px;
+    background-color: wheat;
+    color: black;
+}
+.portait{
+    border-radius: 50%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+#ContenuDroit{
+    grid-area: right-column;
+    display: grid;
+
+}
+.header{
+    padding: 30px;
+    background-color: wheat;
+    text-align: center;
+    justify-content: center;
+}
+.contenu{
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+.section{
+    margin-bottom: 16px;
+}
+.experience-list{
+    list-style-type: circle;
+}
+#Footer {
+    background-color: wheat;
+    margin-left: -98px;
+    width: 126%;
+    height: 150px;
+    text-align: center;
+    margin-bottom: -180px;
+}
+#extD {
+    background-color: wheat;
+    margin-right: -50px;
+    float: right;
+    width: 30px;
+    height: 98%;
+    margin-top: -50px;
+    padding-top: 0px;
+}
